@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".totalBelanja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Belanja"
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:id="@+id/etTtlBelanja"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="masukan total belanja"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/btninput"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="input"
+
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/ttlBelanjaSetelahDiskon"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Total Belanja Setelah Diskon"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
